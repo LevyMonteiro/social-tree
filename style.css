@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 body {
@@ -32,9 +33,12 @@ a {
     max-width: 400px;
     width: 100%;
     margin-top: 25px;
-    border: 3px solid;
+    border: 3px solid mediumslateblue;
+    color: mediumslateblue;
     padding: 15px;
     border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Arimo', sans-serif;
 }
 
 .contactMe {

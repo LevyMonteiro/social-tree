@@ -27,28 +27,47 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 20px;
+}
+
+i {
+    margin-right: 10px;
 }
 
 a {
-    max-width: 400px;
+    max-width: 450px;
     width: 100%;
-    margin-top: 25px;
+    margin-top: 15px;
     border: 3px solid mediumslateblue;
     color: mediumslateblue;
     padding: 15px;
     border-radius: 7px;
     font-size: 20px;
     font-family: 'Arimo', sans-serif;
+    transform: scale(0.9);
+    transition: ease 0.3s;
+}
+
+a:hover {
+    border: 3px solid white;
+    color: white;
+    transform: scale(1);
 }
 
 .contactMe {
     margin-top: 5%;
-    justify-content: bottom;
 }
 
-#email {
+#email, #emailIcon {
+    margin: 0px;
     border: none;
     color: white;
+    transform: scale(0.9);
+    transition: ease 0.3s;
+}
+
+#emailIcon:hover {
+    transform: scale(1);
 }
 
 .summary {
@@ -57,11 +76,13 @@ a {
 }
 
 h3 {
+    opacity: 0.9;
     margin-top: 15px;
     margin-bottom: 10px;
 }
 
 .intro {
+    opacity: 0.9;
     margin-top: 5px;
 }
 
@@ -84,5 +105,5 @@ img {
 }
 
 h1 {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Nunito', sans-serif;
 }

@@ -1,5 +1,6 @@
 import Card from './Card';
 import About from './About';
+import Footer from './Footer';
 
 function App() {
   const cardData = [
@@ -28,9 +29,10 @@ function App() {
   return (
     <div
       id='app'
-      className='w-screen sm:w-[80%] h-[90%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-8 gap-8'
+      className='w-screen sm:w-[80%] h-[90%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-7 gap-6'
     >
       <About />
+
       <div
         id='cards'
         className='flex flex-col justify-center gap-8 w-[80%] sm:w-96'
@@ -39,6 +41,8 @@ function App() {
           <Card name={cd.name} icon={cd.icon} src={cd.src} key={cd.name} />
         ))}
       </div>
+
+      <Footer />
     </div>
   );
 }

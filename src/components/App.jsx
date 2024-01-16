@@ -28,7 +28,7 @@ function App() {
   return (
     <div
       id='app'
-      className='w-screen sm:w-[80%] h-[90%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-16 sm:py-8 sm:py-0 gap-8'
+      className='w-screen sm:w-[80%] h-[90%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-8 gap-8'
     >
       <About />
       <div

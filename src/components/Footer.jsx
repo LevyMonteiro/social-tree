@@ -2,7 +2,7 @@ export default function Footer() {
   return (
     <div
       id='footer'
-      className='flex justify-center gap-1 text-white opacity-80 scale-90 sm:scale-100'
+      className='flex justify-center gap-1 text-white opacity-80 text-[12px] sm:text-sm'
     >
       coded by
       <a

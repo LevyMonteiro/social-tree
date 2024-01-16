@@ -6,22 +6,22 @@ function App() {
   const cardData = [
     {
       name: 'Send a mail',
-      icon: <i className='fa-solid fa-at scale-150'></i>,
+      icon: <i className='fa-solid fa-at scale-125'></i>,
       src: 'mailto:olevymonteiro@gmail.com',
     },
     {
       name: 'Instagram',
-      icon: <i className='fa-brands fa-instagram scale-150'></i>,
+      icon: <i className='fa-brands fa-instagram scale-125'></i>,
       src: 'https://instagram.com/olevymonteiro',
     },
     {
       name: 'Linkedin',
-      icon: <i className='fa-brands fa-linkedin-in scale-150'></i>,
+      icon: <i className='fa-brands fa-linkedin-in scale-125'></i>,
       src: 'https://linkedin.com/in/levymonteiro',
     },
     {
       name: 'Github',
-      icon: <i className='fa-brands fa-github scale-150'></i>,
+      icon: <i className='fa-brands fa-github scale-125'></i>,
       src: 'https://github.com/levymonteiro',
     },
   ];
@@ -29,7 +29,7 @@ function App() {
   return (
     <div
       id='app'
-      className='w-screen sm:w-[80%] h-[90%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-7 gap-6'
+      className='w-screen sm:w-[80%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-7 gap-6'
     >
       <About />
 

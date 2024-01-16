@@ -1,5 +1,5 @@
 import Card from './Card';
-import Icon from './Icon';
+import About from './About';
 
 function App() {
   const cardData = [
@@ -28,9 +28,13 @@ function App() {
   return (
     <div
       id='app'
-      className='w-3/4 h-screen m-auto flex flex-col justify-center items-center gap-4 border-spacing-1 border-indigo-700'
+      className='w-screen sm:w-[80%] h-screen my-0 sm:m-auto flex flex-col justify-center items-center border-spacing-1 border-indigo-700 py-8 gap-8'
     >
-      <div id='cards' className='flex flex-col justify-center gap-8 w-96'>
+      <About />
+      <div
+        id='cards'
+        className='flex flex-col justify-center gap-8 w-[80%] sm:w-96'
+      >
         {cardData.map((cd) => (
           <Card name={cd.name} icon={cd.icon} src={cd.src} key={cd.name} />
         ))}

@@ -6,6 +6,10 @@ This is an alike linktree site, simple and functional that contain my social med
 
 ## Demo
 
+
+https://github.com/LevyMonteiro/social-tree/assets/102385102/aa2f459c-2e97-41cd-a8fb-ec88984bb1f6
+
+
 Check out a short video demonstrating the app in action:
 
 ## Getting Started

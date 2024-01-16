@@ -7,8 +7,10 @@
   box-sizing: border-box;
 }
 
-body {
-  width: 100vw;
-  height: 100vh;
-  background-color: #1f1f1f;
+@layer components {
+  body {
+    width: 100vw;
+    height: 100vh;
+    @apply bg-neutral-100 dark:bg-neutral-800;
+  }
 }

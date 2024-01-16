@@ -5,7 +5,13 @@ export default {
     colors: {
       primary: '#7b68ee',
       secondary: '#4c1d95',
-      white: '#fff',
+      'neutral-50': '#fff',
+      'neutral-100': '#f5f5f4',
+      'neutral-500': '#737373',
+      'neutral-700': '#262626',
+      'neutral-800': '#1f1f1b',
+      'neutral-900': '#18181b',
+      'neutral-950': '#000',
     },
     fontFamily: {
       nunito: ['Nunito', 'sans-serif'],
@@ -20,5 +26,5 @@ export default {
     },
     extend: {},
   },
-  plugins: [],
+  plugins: [require('@designbycode/tailwindcss-text-shadow')],
 };

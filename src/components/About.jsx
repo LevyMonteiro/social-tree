@@ -2,7 +2,7 @@ export default function About() {
   return (
     <div
       id='about'
-      className='text-white font-nunito flex flex-col items-center gap-2 w-[85%] xs:w-[90%] md:w-[80%]'
+      className='text-neutral-900 dark:text-neutral-50 font-nunito flex flex-col items-center gap-2 w-[85%] xs:w-[90%] md:w-[80%]'
     >
       <img
         src='https://avatars.githubusercontent.com/u/102385102?v=4'

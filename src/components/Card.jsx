@@ -2,7 +2,7 @@ export default function Card({ name, icon, src }) {
   return (
     <a
       id='card'
-      className='flex justify-center items-center m-auto gap-4 text-indigo-700 border-spacing-1 border-indigo-700 w-full h-12 rounded-sm'
+      className='flex justify-center items-center gap-4 text-primary shadow-sm shadow-secondary border-[3px] border-pritext-primary w-full h-12 rounded-lg hover:scale-110 hover:shadow-none hover:text-white ease-in-out duration-300'
       href={src}
       target='_blank'
     >

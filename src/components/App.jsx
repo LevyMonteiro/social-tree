@@ -1,20 +1,21 @@
 import Card from './Card';
+import Icon from './Icon';
 
 function App() {
   const cardData = [
     {
       name: 'Send a mail',
-      icon: 'https://cdn0.iconfinder.com/data/icons/font-awesome-solid-vol-1/512/at-256.png',
+      icon: <i className='fa-solid fa-at scale-150'></i>,
       src: 'mailto:olevymonteiro@gmail.com',
     },
     {
       name: 'Linkedin',
-      icon: 'https://cdn3.iconfinder.com/data/icons/feather-5/24/linkedin-256.png',
+      icon: <i className='fa-brands fa-linkedin-in scale-150'></i>,
       src: 'https://linkedin.com/in/levymonteiro',
     },
     {
       name: 'Github',
-      icon: 'https://cdn1.iconfinder.com/data/icons/logotypes/32/github-256.png',
+      icon: <i className='fa-brands fa-github scale-150'></i>,
       src: 'https://github.com/levymonteiro',
     },
   ];
@@ -22,26 +23,33 @@ function App() {
   const icons = [
     {
       name: 'Instagram',
-      icon: 'https://cdn4.iconfinder.com/data/icons/picons-social/57/38-instagram-2-256.png',
+      icon: <i className='fa-brands fa-instagram scale-150'></i>,
       src: 'https://instagram.com/olevymonteiro',
     },
     {
       name: 'Twitter',
-      icon: 'https://cdn2.iconfinder.com/data/icons/threads-by-instagram/24/x-logo-twitter-new-brand-256.png',
+      icon: <i className='fa-brands fa-x-twitter scale-150'></i>,
       src: 'https://x.com/olevymonteiro',
     },
-    {
-      name: 'Vsco',
-      icon: 'https://cdn4.iconfinder.com/data/icons/logos-brands-5/24/vsco-256.png',
-      src: 'https://vsco.co/olevymonteiro',
-    },
   ];
+
   return (
     <div
-      id='body'
-      className='w-screen h-screen flex justify-center items-center'
+      id='app'
+      className='w-3/4 h-screen m-auto flex flex-col justify-center items-center gap-4 border-spacing-1 border-indigo-700'
     >
-      <div id='cards' className='flex flex-col justify-center gap-8'>
+      <div id='icons' className='flex justify-center h-10 gap-6 w-96'>
+        {icons.map((icon) => (
+          <Icon
+            name={icon.name}
+            icon={icon.icon}
+            src={icon.src}
+            key={icon.name}
+          />
+        ))}
+      </div>
+
+      <div id='cards' className='flex flex-col justify-center gap-8 w-96'>
         {cardData.map((cd) => (
           <Card name={cd.name} icon={cd.icon} src={cd.src} key={cd.name} />
         ))}

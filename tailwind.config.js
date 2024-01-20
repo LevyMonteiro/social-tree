@@ -7,6 +7,7 @@ export default {
       secondary: '#4c1d95',
       'neutral-50': '#fff',
       'neutral-100': '#f5f5f4',
+      'neutral-200': '#e5e5e5',
       'neutral-500': '#737373',
       'neutral-700': '#262626',
       'neutral-800': '#1f1f1b',

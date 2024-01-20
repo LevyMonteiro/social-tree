@@ -4,13 +4,13 @@
 
 * {
   margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
 
 @layer components {
   body {
-    width: 100vw;
-    height: 100vh;
-    @apply bg-neutral-100 dark:bg-neutral-800;
+    @apply w-screen h-screen flex items-center justify-center bg-neutral-100 md:bg-neutral-200 dark:bg-neutral-800;
+
   }
 }

@@ -29,7 +29,7 @@ function App() {
   return (
     <div
       id='app'
-      className='w-screen sm:w-[80%] sm:h-screen my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-7 gap-6'
+      className='w-full sm:w-[80%] sm:h-screen md:bg-neutral-100 md:dark:bg-neutral-800 md:rounded-3xl md:shadow-lg md:shadow-primary md:dark:shadow-none md:h-[760px] md:w-[520px] my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-7 gap-6'
     >
       <About />
 

@@ -9,7 +9,7 @@ export default function Card({ name, icon, src }) {
   return (
     <a
       id='card'
-      className='flex items-center justify-between p-4 text-primary border-[3px] w-full h-12 rounded-lg hover:scale-110 hover:brightness-75 hover:dark:text-neutral-50 dark:text-shadow-x-0 dark:text-shadow-y-0 dark:text-shadow-blur-0 text-shadow text-shadow-x-3 text-shadow-y-3 text-shadow-blur-6 text-shadow-neutral-500 text-sm sm:text-base ease-in-out duration-300'
+      className='flex items-center justify-between px-6 xs:px-8 py-2 md:py-[10px] text-primary border-[3px] w-full h-min rounded-[7px] hover:scale-110 hover:brightness-75 hover:dark:text-neutral-50 dark:text-shadow-x-0 dark:text-shadow-y-0 dark:text-shadow-blur-0 text-shadow text-shadow-x-3 text-shadow-y-3 text-shadow-blur-6 text-shadow-neutral-500 text-[14px] sm:text-base ease-in-out duration-300'
       href={src}
       target='_blank'
     >

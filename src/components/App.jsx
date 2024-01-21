@@ -35,7 +35,7 @@ function App() {
 
       <div
         id='cards'
-        className='flex flex-col justify-center gap-6 sm:gap-8 medium:gap-4 w-[80%] sm:w-96 short:scale-90 short:-mt-3'
+        className='flex flex-col justify-center gap-3 w-[80%] sm:w-96 short:scale-90 short:-mt-3'
       >
         {cardData.map((cd) => (
           <Card name={cd.name} icon={cd.icon} src={cd.src} key={cd.name} />

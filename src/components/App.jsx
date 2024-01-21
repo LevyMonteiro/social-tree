@@ -29,13 +29,13 @@ function App() {
   return (
     <div
       id='app'
-      className='w-full sm:w-[80%] sm:h-screen md:bg-neutral-100 md:dark:bg-neutral-800 md:rounded-3xl md:shadow-lg md:shadow-primary md:dark:shadow-none md:h-[760px] md:w-[520px] my-auto sm:m-auto flex flex-col justify-center items-center border-spacing-1 py-7 gap-6'
+      className='w-full sm:w-[80%] h-min md:bg-neutral-100 md:dark:bg-neutral-800 md:rounded-3xl md:shadow-lg md:shadow-primary md:dark:shadow-none md:h-[760px] md:w-[520px] sm:m-auto flex flex-col justify-center items-center border-spacing-1 gap-6 short:gap-0 relative -top-3 xs:-top-6 md:top-0'
     >
       <About />
 
       <div
         id='cards'
-        className='flex flex-col justify-center gap-6 sm:gap-8 w-[80%] sm:w-96'
+        className='flex flex-col justify-center gap-6 sm:gap-8 medium:gap-4 w-[80%] sm:w-96 short:scale-90 short:-mt-3'
       >
         {cardData.map((cd) => (
           <Card name={cd.name} icon={cd.icon} src={cd.src} key={cd.name} />

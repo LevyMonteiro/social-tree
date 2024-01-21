@@ -25,7 +25,12 @@ export default {
       xg: '1024px',
       '2xl': '1280px',
     },
-    extend: {},
+    extend: {
+      screens: {
+        short: { raw: '(max-height: 680px)' },
+        medium: { raw: '(max-height: 800px)' },
+      },
+    },
   },
   plugins: [require('@designbycode/tailwindcss-text-shadow')],
 };

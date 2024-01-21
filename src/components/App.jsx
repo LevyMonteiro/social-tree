@@ -29,7 +29,7 @@ function App() {
   return (
     <div
       id='app'
-      className='w-full sm:w-[80%] h-min md:bg-neutral-100 md:dark:bg-neutral-800 md:rounded-3xl md:shadow-lg md:shadow-primary md:dark:shadow-none md:h-[760px] md:w-[520px] sm:m-auto flex flex-col justify-center items-center border-spacing-1 gap-6 short:gap-0 relative -top-3 xs:-top-6 md:top-0'
+      className='w-full sm:w-[80%] h-min md:bg-neutral-100 md:dark:bg-neutral-800 md:rounded-3xl md:shadow-lg md:shadow-primary md:dark:shadow-none md:h-[760px] md:w-[520px] sm:m-auto flex flex-col justify-center items-center border-spacing-1 gap-6 short:gap-0 relative -top-11 md:top-0'
     >
       <About />
 
